@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UIColor+Manipulate.h"
 @interface DTViewController : UIViewController
 
 @end

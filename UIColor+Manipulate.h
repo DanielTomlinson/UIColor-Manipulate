@@ -15,4 +15,6 @@
 
 - (UIColor *)saturate:(float)amount;
 - (UIColor *)desaturate:(float)amount;
+
+- (UIColor *)invert;
 @end
