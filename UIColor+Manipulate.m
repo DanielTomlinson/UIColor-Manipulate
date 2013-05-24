@@ -32,4 +32,14 @@
     return nil;
 }
 
+- (UIColor *)saturate:(float)amount {
+    float h, s, b, a;
+    if ([self getHue:&h saturation:&s brightness:&b alpha:&a])
+        return [UIColor colorWithHue:h
+                          saturation:(s + (s * (amount / 100)))
+                          brightness:b
+                               alpha:a];
+    return nil;
+}
+
 @end
