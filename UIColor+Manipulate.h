@@ -14,4 +14,5 @@
 - (UIColor *)darken:(float)amount;
 
 - (UIColor *)saturate:(float)amount;
+- (UIColor *)desaturate:(float)amount;
 @end
