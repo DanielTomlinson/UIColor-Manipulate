@@ -24,8 +24,12 @@
     UIView *invert = [[UIView alloc] initWithFrame:CGRectMake(70, 10, 50, 50)];
     [invert setBackgroundColor:[[UIColor redColor] invert]];
     
+    UIView *greyscale = [[UIView alloc] initWithFrame:CGRectMake(130, 10, 50, 50)];
+    [greyscale setBackgroundColor:[[UIColor redColor] greyscale]];
+    
     [self.view addSubview:def];
     [self.view addSubview:invert];
+    [self.view addSubview:greyscale];
 }
 
 - (void)didReceiveMemoryWarning

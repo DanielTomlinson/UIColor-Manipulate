@@ -62,4 +62,11 @@
     return nil;
 }
 
+- (UIColor *)greyscale {
+    float r, g, b, a;
+    if ([self getRed:&r green:&g blue:&b alpha:&a])
+        return [UIColor colorWithWhite:((r + g + b)/3)
+                                 alpha:a];
+    return nil;
+}
 @end
