@@ -51,7 +51,7 @@
                                alpha:a];
     return nil;
 }
-
+  
 - (UIColor *)invert {
     float r, g, b, a;
     if ([self getRed:&r green:&g blue:&b alpha:&a])
