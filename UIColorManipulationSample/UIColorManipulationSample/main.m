@@ -2,7 +2,7 @@
 //  main.m
 //  UIColorManipulationSample
 //
-//  Created by  Danielle Lancashireon 24/05/2013.
+//  Created by Danielle Lancashire on 24/05/2013.
 //  Copyright (c) 2013 Shadow Developments. All rights reserved.
 //
 
